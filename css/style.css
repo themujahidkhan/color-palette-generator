@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "General Sans", sans-serif;
+}
+
+.parent {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  color: white;
+}
+
+.palette1 {
+  height: 100vh;
+  width: 20vw;
+  transition: all 0.5s ease-in-out;
+  font-size: 3rem;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.palette1:hover {
+  width: 40vw;
+}
+
+.palette2 {
+  height: 100vh;
+  width: 20vw;
+  transition: all 0.5s ease-in-out;
+  font-size: 3rem;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.palette2:hover {
+  width: 40vw;
+}
+
+.palette3 {
+  height: 100vh;
+  width: 20vw;
+  transition: all 0.5s ease-in-out;
+  font-size: 3rem;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.palette3:hover {
+  width: 40vw;
+}
+
+.palette4 {
+  height: 100vh;
+  width: 20vw;
+  transition: all 0.5s ease-in-out;
+  font-size: 3rem;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.palette4:hover {
+  width: 40vw;
+}
+.palette5 {
+  height: 100vh;
+  width: 20vw;
+  transition: all 0.5s ease-in-out;
+  font-size: 3rem;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.palette5:hover {
+  width: 40vw;
+}
+
+.palette1Code {
+  background-color: #1313;
+}
+.palette2Code {
+  background-color: #1313;
+}
+.palette3Code {
+  background-color: #1313;
+}
+.palette4Code {
+  background-color: #1313;
+}
+.palette5Code {
+  background-color: #1313;
+}
+
+.bottomBanner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  width: 100vw;
+  color: #121212;
+  padding: 1rem;
+  position: absolute;
+  bottom: 0;
+}
